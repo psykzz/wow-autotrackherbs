@@ -40,7 +40,7 @@ frame:RegisterEvent("PLAYER_ALIVE")
 frame:RegisterEvent("PLAYER_UNGHOST")
 frame:RegisterEvent("MINIMAP_UPDATE_TRACKING")
 
-frame:SetScript("OnEvent", function(self, event)
+frame:SetScript("OnEvent", function(_, event)
     if event == "PLAYER_ENTERING_WORLD" then
         -- Tracking info isn't always populated the instant this fires (e.g.
         -- immediately after login), so give it a moment before checking.
