@@ -1,0 +1,9 @@
+## Interface: 16001
+## Title: Auto Track Herbs
+## Notes: Automatically re-enables Find Herbs minimap tracking if it gets turned off (e.g. after death/resurrect or a login/reload).
+## Author: PsyKzz
+## Version: @project-version@
+## Category: Professions
+## IconTexture: Interface\Icons\INV_Misc_Flower_02
+
+AutoTrackHerbs.lua

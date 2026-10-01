@@ -18,5 +18,5 @@ jobs:
           sudo luarocks --lua-version=5.1 install luacheck
       - name: Check syntax and globals
         run: |
-          luac5.1 -p AddonName.lua
-          luacheck AddonName.lua
+          luac5.1 -p AutoTrackHerbs.lua
+          luacheck AutoTrackHerbs.lua

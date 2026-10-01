@@ -1,7 +1,0 @@
-## Interface: 16001
-## Title: AddonName
-## Notes: Describe what your addon does.
-## Author: psykzz
-## Version: @project-version@
-
-AddonName.lua

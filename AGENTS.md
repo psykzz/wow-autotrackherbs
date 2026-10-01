@@ -9,7 +9,8 @@
   needs. Version persistent data and provide migrations before changing its
   schema.
 - Addons cannot make external HTTP requests. Do not put network code in Lua.
-- Run the Lua 5.1 syntax and lint checks, then load the addon in-game, try
-  `/addonname`, reload the UI, and check BugSack/BugGrabber for errors.
+- Run the Lua 5.1 syntax and lint checks, then load the addon in-game on an
+  herbalist. Disable Find Herbs, test resurrection and reload, and check
+  BugSack/BugGrabber for errors. There are no slash commands.
 - Update supported-client, dependency, installation, and command documentation
   whenever they change.
